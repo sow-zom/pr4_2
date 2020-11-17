@@ -1,0 +1,21 @@
+﻿<Window x:Class="Pr4_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pr4_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="619.2" Width="740" Background="LightGray">
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="384*"/>
+            <ColumnDefinition Width="155*"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="grid1" Margin="0,0,0.4,0.4" Grid.ColumnSpan="2"/>
+        <Rectangle Height="460" Stroke="Black" VerticalAlignment="Top" Margin="20,10,20.4,0" Grid.ColumnSpan="2"/>
+        <Button Content="Промалювати" Background="DarkGray" HorizontalAlignment="Left" Margin="39,493,0,0" VerticalAlignment="Top" Width="137" Height="43" Click="Button_Click" RenderTransformOrigin="0.756,0.512"/>
+        <Button Content="Стерти" Background="DarkGray" HorizontalAlignment="Left" Margin="264,495,0,0" VerticalAlignment="Top" Width="145" Height="41" Click="Button_Click_1"/>
+        <Label FontSize="16" Content="Захрчук Олексій П - 41" HorizontalAlignment="Left" Margin="478,501,0,0" VerticalAlignment="Top" Height="43" Width="191" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
